@@ -134,8 +134,9 @@ function solvePuzzle() {
     }
 }
 
-
-
 gsap.from('h1', { duration: 3, y: '-100%', ease: 'bounce'});
 gsap.from('.buttons', { duration: 3, y: '250%', ease: 'bounce'});
-gsap.from('#banner', { duration: 1, y: '-500%', ease: 'bounce'});
+gsap.from('#banner', { duration: 1, y: '-500%', ease: 'bounce'}); 
+
+
+
